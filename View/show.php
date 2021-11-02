@@ -21,12 +21,6 @@
 		}else{
 			echo $rows['update_at'];
 		}
-	?></p>
-	
-	
-	
-	
-	
-	
+	?></p>	
 </body>
 </html>

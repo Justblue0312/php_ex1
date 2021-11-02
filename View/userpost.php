@@ -12,7 +12,7 @@
         <?php foreach($result as $rows): ?>
         <tr>
             <td>
-                <img style="width: 100px;" src="static/<?php echo $rows['image']; ?>">
+                <img style="width: 100px;" src="img/<?php echo $rows['image']; ?>">
             </td>
             <td><?php echo $rows['description']; ?></td>
         </tr>

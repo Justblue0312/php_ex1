@@ -14,7 +14,7 @@
         <tr >
             <td>#</td>
             <td>
-                <img style="width: 100px;" src="static/<?php echo $rows['image']; ?>" >
+                <img style="width: 100px;" src="img/<?php echo $rows['image']; ?>" >
             </td>
             <td style="text-align: center;">
                 <a href="index.php?action=userpost&id=<?php echo $rows['id'] ?>"><?php echo $rows['title'] ?></a>
