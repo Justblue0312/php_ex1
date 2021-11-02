@@ -35,7 +35,7 @@
 				
 				$photo = $_FILES["image"]["name"];
 				//thuc hien upload file
-				move_uploaded_file($_FILES["image"]["tmp_name"],"static/$photo");
+				move_uploaded_file($_FILES["image"]["tmp_name"],"img/$photo");
 			}
 
 			$status		= $_POST['status'];	
@@ -74,7 +74,7 @@
 				
 				}else{
 					$photo = $_FILES["image"]["name"];
-					move_uploaded_file($_FILES["image"]["tmp_name"],"static/$photo");
+					move_uploaded_file($_FILES["image"]["tmp_name"],"img/$photo");
 				}
 
 				$status	= $_POST['status'];	
